@@ -59,11 +59,6 @@ module.exports = {
           },
           {
             loader: 'less-loader',
-            options: {
-              modifyVars: {
-                'primary-color': '#09d0ee',
-              }
-            }
           }
         ]
       },

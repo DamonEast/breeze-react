@@ -7,7 +7,7 @@ import { hot } from 'react-hot-loader'
 import { Redirect, Switch } from 'react-router-dom'
 import routes from '@/routes'
 import RouteWithSubRoutes from '@/constants/RouteWithSubRoutes'
-
+import '@/styles/index.less'
 
 const onBeforeLift = () => {
   // console.log('before action')
